@@ -1,0 +1,15 @@
+src/
+│
+├── lib.rs          # Exposes shared modules
+├── config.rs       # Reads .env and configuration
+├── backup.rs       # Backup logic
+├── restore.rs      # Restore logic
+├── scheduler.rs    # Automatic scheduling
+├── storage.rs      # Local or cloud storage
+├── logger.rs       # Logging
+├── api.rs          # Axum routes
+├── main.rs         # Starts the server
+└── bin/
+    ├── backup.rs   # Manual backup command
+    ├── restore.rs  # Manual restore command
+    └── verify.rs   # Backup verification
